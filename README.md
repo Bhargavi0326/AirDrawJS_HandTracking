@@ -1,7 +1,9 @@
 # AirDrawJS
+![AirDraw.js](https://github.com/badboysm890/AirDrawJS/blob/main/rsz_airdraw_js.png)
+
 Hand tracking and writing for online presentaations and classes
 
-> keywords: hand tracking, real time writing, Canvas HTML, user friendly, writing using webcam video, javascript, web browser
+> keywords: hand tracking, real time writing, Canvas HTML, user friendly, writing using webcam video, javascript, Computer Vision, Deeplearning,
 
 ## About
 
@@ -20,13 +22,17 @@ The Project uses Vanilla Javascript! (yes, PLAIN Javascript and HTML Canvas)to u
 
 + You are ready to go !!
 
-## Working and Logic: 
+## Working: 
 
-![handtracking](https://github.com/badboysm890/ML_Scratch_Surface/raw/master/Screenshot%202021-06-19%20at%2021-34-30%20hand_tracking_3d_android_gpu%20gif%20(GIF%20Image%2C%20300%20%C3%97%20564%20pixels).png)
+![name-of-you-image](https://github.com/badboysm890/AirDrawJS/blob/main/Screenshot%202021-06-19%20at%2021-51-00%20Screenshot.png)
  
+## Logic
+
 + Thanks to mediaPipe The had a handtracking model for JS 
 
-Next, simple maths come to play- 
+![handtracking](https://github.com/badboysm890/ML_Scratch_Surface/raw/master/Screenshot%202021-06-19%20at%2021-34-30%20hand_tracking_3d_android_gpu%20gif%20(GIF%20Image%2C%20300%20%C3%97%20564%20pixels).png)
+
+Next, simple maths comes to play- 
 1. Calculate the distance between two different points in the detected hand to differentiate between the gestures we are going to feed the app.
 Example - I have used "Closed hand - ✊" gesture - the app detects closed hands but does not write when the hand is closed. Closed hands gives us the least distance between two points in our hand.
 
@@ -44,6 +50,11 @@ This is the most important and crucial step of this app as this plays as the mai
 
 ![name-of-you-image](https://github.com/badboysm890/AirDrawJS/blob/main/Screenshot%202021-06-19%20at%2021-51-00%20Screenshot.png)
 
+## Where can this be used? (Just to name a few!)
+
++ Webinar or Meet Integration
++ Online Classes
++ Apps using AR
 
 ## Optimization
 This app can be optimized by considering a lot of objectives. To name a few:
